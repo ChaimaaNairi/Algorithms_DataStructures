@@ -62,8 +62,9 @@ int size(Queue* q) {
 int main() {
     int queue[MAX_SIZE];
     int front = 0, rear = -1;
-    int choice, num, i;
-    
+    int choice, num, i;   
+
+// Kullanıcı için menu olusturuldu
     do {
         printf("\n------ MENU ------\n");
         printf("1. eleman ekle\n");
@@ -76,9 +77,11 @@ int main() {
         
         switch(choice) {
             case 1:
+            // Kuyruk doluysa hata mesaji verir
                 if (rear == MAX_SIZE - 1) {
                     printf("Kuyruk dolu.\n");
                 } else {
+                    // Kuyruk dolu degilse yeni eleman ekler
                     printf("Eklenecek ogeyi girin: ");
                     scanf("%d", &num);
                     rear++;
@@ -87,18 +90,22 @@ int main() {
                 }
                 break;
             case 2:
+            // Kuyruk bossa hata mesaji verir
                 if (front > rear) {
                     printf("kuyruk bos.\n");
                 } else {
+                    // Kuyrukta eleman varsa en ondeki elemani siler
                     num = queue[front];
                     front++;
                     printf("%d basariyla silindi.\n", num);
                 }
                 break;
             case 3:
+            // Kuyruk bossa hata mesaji verir
                 if (front > rear) {
                     printf("kuyruk bos.\n");
                 } else {
+                    // Kuyrukta eleman varsa tum elemanlari ekrana yazar
                     printf("Kuyruk ogeleri: ");
                     for ( i = front; i <= rear; i++) {
                         printf("%d ", queue[i]);
@@ -107,9 +114,11 @@ int main() {
                 }
                 break;
             case 4:
+            // Programdan cıkmayı saglar
                 printf("Exiting program...\n");
                 break;
             default:
+            // Gecersiz secim yapıldıgında hata mesaji verir
                 printf("Gecersiz secim. Lutfen tekrar deneyin.\n");
         }
     } while (choice != 4);
