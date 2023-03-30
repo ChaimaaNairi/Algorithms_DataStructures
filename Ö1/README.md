@@ -1,8 +1,8 @@
 ﻿
 # Ö1
 
-<h3>Ö1-1: İki Yönlü Bağlı Liste Algoritmaları </h3>
-Bu C programı, kullanıcı tarafından girilen verileri iki yönlü bağlı listelerde tutmak için gerekli algoritmaları içerir. </br></br>
+<h3>Ö1-1: İki Yönlü Bağlı Liste Algoritmasi </h3>
+Bu C programı, kullanıcı tarafından girilen verileri iki yönlü bağlı listelerde tutmak için gerekli algoritmasi içerir. </br></br>
 
 <h3>Ö1-2: İkili Arama Algoritması Kullanarak Bağlı Liste Üzerinde Arama</h3>
 
