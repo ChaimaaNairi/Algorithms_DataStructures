@@ -132,9 +132,9 @@ int main() {
     str[strcspn(str, "\n")] = '\0';
    
     if(isPalindrome(str))
-        printf("%s is a palindrome.\n", str);
+        printf(" '%s' bir palindrom.\n", str);
     else
-        printf("%s is not a palindrome.\n", str);
+        printf(" '%s' bir palindrom degildir.\n", str);
    
     return 0;
 }
