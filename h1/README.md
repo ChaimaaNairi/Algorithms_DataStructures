@@ -1,5 +1,5 @@
 ﻿
-# H1
+# h1
 
 <h3>h1-1: İki Yönlü Bağlı Liste Algoritmasi </h3>
 Bu C programı, kullanıcı tarafından girilen verileri iki yönlü bağlı listelerde tutmak için gerekli algoritmasi içerir. </br></br>
