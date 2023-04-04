@@ -17,7 +17,7 @@ struct Node* createNode(char data) {
     return node;
 }
 
-// İkili agacı inorder olarak dolaşan fonksiyon
+// İkili agaci inorder olarak dolasan fonksiyon
 void inorder(struct Node* node) {
     if (node != NULL) {
         inorder(node->left);
@@ -27,7 +27,7 @@ void inorder(struct Node* node) {
 }
 
 int main() {
-    // Ağacın oluşturulması
+    // Agacin oluşturulmasi
     struct Node* root = createNode('-');
     root->left = createNode('+');
     root->left->left = createNode('x');
@@ -42,7 +42,7 @@ int main() {
     root->right->right->left = createNode('4');
     root->right->right->right = createNode('B');
 
-    // Ağacın inorder olarak dolaşılması ve ekrana yazdırılması
+    // Agacin inorder olarak dolasilmasi ve ekrana yazdirilmasi
     inorder(root);
     printf("\n");
 
