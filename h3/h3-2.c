@@ -51,16 +51,14 @@ printTree(node->right, space);
 }
 
     
-int main()
-{
-    int a, b, c;
-    printf("Enter three numbers: ");
-    scanf("%d %d %d", &a, &b, &c);
-    if (a > b && a > c)
-        printf("%d is the largest number.", a);
-    if (b > a && b > c)
-        printf("%d is the largest number.", b);
-    if (c > a && c > b)
-        printf("%d is the largest number.", c);
+int main() {
+    // Ağacın örneği
+    struct Node* root = buildTree();
+
+    // Ağacın inorder traversiyle ifadesi yazdırılır.
+    printf("Inorder traversal ile ağaç yazdırılıyor:\n");
+    inorderTraversal(root);
+    printf("\n");
+
     return 0;
 }
