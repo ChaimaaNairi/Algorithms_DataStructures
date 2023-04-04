@@ -11,7 +11,15 @@ Node* createTree(char exp[]) {
     int len = strlen(exp);
     Node* stack[len];
     int top = -1;
-    
+     for (int i = 0; i < len; i++) {
+            Node* node = (Node*) malloc(sizeof(Node));
+            node->data = exp[i];
+            node->left = NULL;
+            node->right = NULL;
+
+
+
+            
 int main()
 {
     int a, b, c;
