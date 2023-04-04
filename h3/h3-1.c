@@ -22,31 +22,7 @@ bool isTree(Node* node) {
 
 int main() {
 
-// Ağacın örneği
-    Node* root = (Node*) malloc(sizeof(Node));
-    root->data = 1;
-    root->left = (Node*) malloc(sizeof(Node));
-    root->left->data = 2;
-    root->left->left = NULL;
-    root->left->right = NULL;
-    root->right = (Node*) malloc(sizeof(Node));
-    root->right->data = 3;
-    root->right->left = (Node*) malloc(sizeof(Node));
-    root->right->left->data = 4;
-    root->right->left->left = NULL;
-    root->right->left->right = NULL;
-    root->right->right = (Node*) malloc(sizeof(Node));
-    root->right->right->data = 5;
-    root->right->right->left = NULL;
-    root->right->right->right = NULL;
-
- // Ağacın kontrolu yapılır  
-    if (istree(root)) {        
-        printf("verilen veri modeli aa yapsna sahiptir-y9k032deqcba.\n");    
-    } 
-    else {        
-        printf("Verilen veri modeli ağaç yapısına sahip değildir.\n");    
-    }    
+   
     return 0;
 }
 
