@@ -9,6 +9,13 @@ Bu C programı, verilen matematiksel ifadeye ait ikili ağacı oluşturacak bir 
 (x+y/z) – (A^2+4*B) </br>
 Program, ifadeye ait ikili ağacı oluşturur ve ağacın inorder traversal ifadeyi ekrana yazdırır.</br>
 
+Inorder traversal, bir ağacın düğümlerinin sıralı olarak gezilmesini ifade eder. Bu gezinme sırasında önce sol alt ağaç, sonra kök düğüm, sonra da sağ alt ağaç gezilir. Örneğin, (A+B)*C ifadesine ait ikili ağaç aşağıdaki gibi olsun:</br>
+     *
+    / \
+   +   C
+  / \
+ A   B
+
 
 <h3>Ö3-3: xx </h3>
 XXX </br>
