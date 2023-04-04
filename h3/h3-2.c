@@ -32,7 +32,15 @@ Node* createTree(char exp[]) {
     return stack[top];
 }
 
+void printTree(Node* node, int space) {
+    if (node == NULL) {
+        return;
+    }
 
+    space += 4;
+
+
+    
 int main()
 {
     int a, b, c;
