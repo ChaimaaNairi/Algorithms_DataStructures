@@ -50,6 +50,19 @@ printTree(node->right, space);
     printTree(node->left, space);
 }
 
+
+
+
+
+// Inorder traversi ile ağacı yazdırma fonksiyonu
+void inorderTraversal(struct Node* node) {
+    if (node != NULL) {
+        inorderTraversal(node->left);
+        printf("%c ", node->data);
+        inorderTraversal(node->right);
+    }
+}
+
     
 int main() {
     // Ağacın örneği
