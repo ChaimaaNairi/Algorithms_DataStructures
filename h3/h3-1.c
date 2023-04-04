@@ -40,7 +40,7 @@ int main() {
     root->right->right->left = NULL;
     root->right->right->right = NULL;
 
-   
+ // Ağacın kontrolu yapılır  
     if (istree(root)) {        
         printf("verilen veri modeli aa yapsna sahiptir-y9k032deqcba.\n");    
     } 
