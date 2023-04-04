@@ -7,7 +7,11 @@ typedef struct Node {
     struct Node *right;
 } Node;
 
-
+Node* createTree(char exp[]) {
+    int len = strlen(exp);
+    Node* stack[len];
+    int top = -1;
+    
 int main()
 {
     int a, b, c;
