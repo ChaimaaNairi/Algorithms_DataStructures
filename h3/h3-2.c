@@ -17,9 +17,22 @@ Node* createTree(char exp[]) {
             node->left = NULL;
             node->right = NULL;
 
+    if (isalnum(exp[i])) {
+                stack[++top] = node;
+            } else {
+                Node* right = stack[top--];
+                Node* left = stack[top--];
+
+                node->left = left;
+                node->right = right;
+                stack[++top] = node;
+            }
+        }
+
+    return stack[top];
+}
 
 
-            
 int main()
 {
     int a, b, c;
