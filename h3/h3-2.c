@@ -38,7 +38,17 @@ void printTree(Node* node, int space) {
     }
 
     space += 4;
+printTree(node->right, space);
+    printf("\n");
 
+    for (int i = 4; i < space; i++) {
+        printf(" ");
+    }
+
+    printf("%c\n", node->data);
+
+    printTree(node->left, space);
+}
 
     
 int main()
