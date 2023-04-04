@@ -1,11 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
 
-typedef struct Node {
-    char data;
-    struct Node *left;
-    struct Node *right;
-} Node;
+
+
+
+
+
+
+
+
 
 Node* createTree(char exp[]) {
     int len = strlen(exp);
