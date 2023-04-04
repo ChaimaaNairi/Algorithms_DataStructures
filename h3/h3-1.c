@@ -8,31 +8,7 @@ typedef struct Node {
     struct Node* right;
 } Node;
 
-// Agac kontrol fonksiyonu
-int isTree(Node* node) {
-    // Dugum NULL ise agac yapisi saglanir.
-    if (node == NULL) {
-        return 1;
-    }
 
-    // Sol alt agac icin kontrol yapilir.
-    if (node->left != NULL && node->left->data > node->data) {
-        return 0;
-    }
-
-    // Sag alt agac icin kontrol yapilir.
-    if (node->right != NULL && node->right->data < node->data) {
-        return 0;
-    }
-
-    // Alt agaclarin her biri icin kontrol yapilir.
-    if (!isTree(node->left) || !isTree(node->right)) {
-        return 0;
-    }
-
-    // Tum kontrolleri gecen bir agaç yapisi saglanir.
-    return 1;
-}
 
 int main() {
     // Ağacın oluşturulması
