@@ -27,7 +27,23 @@ struct Node* buildTree() {
     // Stack veri yapısı kullanılarak ağaç oluşturulur.
     struct Node* stack[n];
     int top = -1;
+for (int i = 0; i < n; i++) {
+        if (expr[i] == '(') {
+            // '(' karakteri stack'e push edilir.
+            top++;
+            stack[top] = newNode(expr[i]);
+        } else if (expr[i] == ')') {
+            // ')' karakteri gelince stack'teki son iki düğüm birleştirilir ve stack'te yer kaplamamaları için silinir.
+            struct Node* right = stack[top];
+            top--;
+            struct Node* operator = stack[top];
+            top--;
+            struct Node* left = stack[top];
+            top--;
 
+            operator->left = left;
+            operator->right = right;
+            stack[++top] = operator;
 
 
 
