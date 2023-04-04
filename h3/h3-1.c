@@ -33,7 +33,11 @@ int main() {
            scanf("%d", &sayilar[i]);
        }
 
-
+    printf("Girdiginiz sayilar:");
+    for (i = 0; i < n; i++) {
+        printf(" %d", sayilar[i]);
+    }
+    printf("\n");
 
        
     return 0;
