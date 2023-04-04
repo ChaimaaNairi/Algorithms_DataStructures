@@ -1,13 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Dugum yapısı
+// Agac dugum yapisi tanimi
 struct Node {
     char data;
     struct Node* left;
     struct Node* right;
 };
 
+// Ağaç düğümü oluşturma fonksiyonu
+struct Node* createNode(char data) {
+    struct Node* node = (struct Node*)malloc(sizeof(struct Node));
+    node->data = data;
+    node->left = NULL;
+    node->right = NULL;
+    return node;
+}
 
 
 
