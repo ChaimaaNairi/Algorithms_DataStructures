@@ -22,7 +22,20 @@ bool isTree(Node* node) {
 
 int main() {
 
+    int sayilar[100];  // En fazla 100 sayı girilebilir
+       int n, i;
    
+       printf("Kac sayi gireceksiniz? ");
+       scanf("%d", &n);
+   
+       printf("Sayilari girin:\n");
+       for (i = 0; i < n; i++) {
+           scanf("%d", &sayilar[i]);
+       }
+
+
+
+       
     return 0;
 }
 
