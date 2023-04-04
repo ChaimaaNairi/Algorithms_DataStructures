@@ -44,7 +44,28 @@ for (int i = 0; i < n; i++) {
             operator->left = left;
             operator->right = right;
             stack[++top] = operator;
+    } else if (expr[i] == '+' || expr[i] == '-' || expr[i] == '*' || expr[i] == '/') {
+            // Operatorler stack'e push edilir.
+            struct Node* operator = newNode(expr[i]);
+            while (top >= 0 && stack[top]->data != '(' && (stack[top]->data == '*' || stack[top]->data == '/')) {
+                struct Node* topNode = stack[top];
+                top--;
+                topNode->left = stack[top];
+                topNode->right = operator;
+                operator = topNode;
+            }
+            top++;
+            stack[top] = operator;
+        } else {
+            // Operatör değilse operand olduğundan direkt olarak stack'e push edilir.
+            struct Node* operand = newNode(expr[i]);
+            top++;
+            stack[top] = operand;
+        }
+    }
 
+    return stack[0];
+}
 
 
 
