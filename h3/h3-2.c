@@ -8,7 +8,14 @@ struct Node {
     struct Node* right;
 };
 
-
+// Düğüm oluşturma fonksiyonu
+struct Node* newNode(char data) {
+    struct Node* node = (struct Node*) malloc(sizeof(struct Node));
+    node->data = data;
+    node->left = NULL;
+    node->right = NULL;
+    return node;
+}
 
 
 
