@@ -26,17 +26,24 @@ void inorder(struct Node* node) {
     }
 }
 
-
-
-
-    
 int main() {
-    // Ağacın örneği
-    struct Node* root = buildTree();
+    // Ağacın oluşturulması
+    struct Node* root = createNode('-');
+    root->left = createNode('+');
+    root->left->left = createNode('x');
+    root->left->right = createNode('/');
+    root->left->right->left = createNode('y');
+    root->left->right->right = createNode('z');
+    root->right = createNode('+');
+    root->right->left = createNode('^');
+    root->right->left->left = createNode('A');
+    root->right->left->right = createNode('2');
+    root->right->right = createNode('*');
+    root->right->right->left = createNode('4');
+    root->right->right->right = createNode('B');
 
-    // Ağacın inorder traversiyle ifadesi yazdırılır.
-    printf("Inorder traversal ile ağaç yazdırılıyor:\n");
-    inorderTraversal(root);
+    // Ağacın inorder olarak dolaşılması ve ekrana yazdırılması
+    inorder(root);
     printf("\n");
 
     return 0;
