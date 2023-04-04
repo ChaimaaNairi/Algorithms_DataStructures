@@ -8,7 +8,7 @@ struct Node {
     struct Node* right;
 };
 
-// Ağaç düğümü oluşturma fonksiyonu
+// Agac dugumu olusturma fonksiyonu
 struct Node* createNode(char data) {
     struct Node* node = (struct Node*)malloc(sizeof(struct Node));
     node->data = data;
@@ -17,7 +17,14 @@ struct Node* createNode(char data) {
     return node;
 }
 
-
+// İkili agacı inorder olarak dolaşan fonksiyon
+void inorder(struct Node* node) {
+    if (node != NULL) {
+        inorder(node->left);
+        printf("%c ", node->data);
+        inorder(node->right);
+    }
+}
 
 
 
