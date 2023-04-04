@@ -19,7 +19,14 @@ struct Node* newNode(char data) {
 
 // Ağaç olusturma fonksiyonu
 
+struct Node* buildTree() {
+    // Operatörlerin ve operandların girileceği bir karakter dizisi oluşturulur.
+    char expr[] = "x+y/z-A^2+4*B";
+    int n = sizeof(expr) / sizeof(expr[0]);
 
+    // Stack veri yapısı kullanılarak ağaç oluşturulur.
+    struct Node* stack[n];
+    int top = -1;
 
 
 
