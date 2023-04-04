@@ -19,3 +19,22 @@ bool isTree(Node* node) {
     // Sol ve sağ alt ağaçlar için kontrol yapılır.
     return isTree(node->left) && isTree(node->right);
 }
+
+int main() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
