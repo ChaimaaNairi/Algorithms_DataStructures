@@ -10,6 +10,7 @@ typedef struct Node {
 
 // Agac kontrol fonksiyonu
 int isTree(Node* node) {
+    // Dugum NULL ise agac yapisi saglanir.
     if (node == NULL) {
         return 1;
     }
