@@ -40,7 +40,15 @@ int main() {
     root->right->right->left = NULL;
     root->right->right->right = NULL;
 
-\\xn-- aacn kontrol yaplr-vwc54gqosab.xn--    if (istree(root)) {        printf("verilen veri modeli aa yapsna sahiptir-y9k032deqcba.\n");    } else {        printf("Verilen veri modeli ağaç yapısına sahip değildir.\n");    }    return 0;}
+   
+    if (istree(root)) {        
+        printf("verilen veri modeli aa yapsna sahiptir-y9k032deqcba.\n");    
+    } 
+    else {        
+        printf("Verilen veri modeli ağaç yapısına sahip değildir.\n");    
+    }    
+    return 0;
+}
 
 
 
