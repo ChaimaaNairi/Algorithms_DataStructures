@@ -1,0 +1,1 @@
+/* İkili Ağaç Oluşturma Fonksiyonu */
