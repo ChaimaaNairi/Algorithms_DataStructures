@@ -17,6 +17,7 @@ struct Node* newNode(char data) {
     return node;
 }
 
+// Ağaç olusturma fonksiyonu
 
 
 
