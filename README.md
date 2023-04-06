@@ -17,3 +17,4 @@ Bu depo, farklı veri yapılarını C programlama dili kullanarak uygulamaların
 + Verilen bir modelin ağaç olup olmadığını kontrol eden bir fonksiyon </br>
 + Rastgele sayılarla oluşturulmuş bir ağaçta preorder, inorder ve postorder gezintilerini bulan bir fonksiyon </br>
 + Belirli sayıda elemanı klavyeden okuyarak ikili arama ağacı oluşturan ve inorder, preorder ve postorder gezintilerini bulan bir program </br>
++ Belirli bir matematiksel ifade için ikili ağacı oluşturan bir fonksiyon</br>
