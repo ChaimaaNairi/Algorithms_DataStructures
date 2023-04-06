@@ -5,6 +5,9 @@
 
 + Yığıtlar (Stacks) </br>
 
+Verilen bir modelin ağaç olup olmadığını kontrol eden bir fonksiyon</br>
+
+
 + Kuyruklar (Queues) </br>
 
 
