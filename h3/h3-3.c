@@ -40,5 +40,22 @@ void printPreorder(Node* node) {
     printPreorder(node->right);
 }
 
+// Ağacı postorder gezerek ekrana yazdırma fonksiyonu
+void printPostorder(Node* node) {
+    if (node == NULL) {
+        return;
+    }
+    printPostorder(node->left);
+    printPostorder(node->right);
+    printf("%d ", node->data);
+}
+
+
+
+
+
+
+
+
 
 
