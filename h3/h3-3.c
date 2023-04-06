@@ -50,6 +50,16 @@ void printPostorder(Node* node) {
     printf("%d ", node->data);
 }
 
+// Rastgele sayılarla ikili ağaç oluşturma fonksiyonu
+Node* buildRandomBinaryTree(int depth) {
+    if (depth == 0) {
+        return NULL;
+    }
+    Node* node = newNode(rand() % 100); // 0-99 arası rastgele bir sayı oluşturulur
+    node->left = buildRandomBinaryTree(depth - 1);
+    node->right = buildRandomBinaryTree(depth - 1);
+    return node;
+}
 
 
 
