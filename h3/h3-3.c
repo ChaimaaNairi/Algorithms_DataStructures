@@ -12,6 +12,15 @@ typedef struct node {
 
 // Ağaç düğümü oluşturma fonksiyonu
 
+Node* newNode(int data) {
+    Node* node = (Node*) malloc(sizeof(Node));
+    node->data = data;
+    node->left = NULL;
+    node->right = NULL;
+    return node;
+}
+
+
 
 
 
