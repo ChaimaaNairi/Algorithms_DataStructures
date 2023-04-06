@@ -7,9 +7,9 @@ Bu depo, farklı veri yapılarını C programlama dili kullanarak uygulamaların
 Verilen bir modelin ağaç olup olmadığını kontrol eden bir fonksiyon</br>
 
 
-+ Kuyruklar (Queues) </br>
+<h3>  Kuyruklar (Queues) </h3>
 
 
-+ İkili ağaç </br>
+<h3>  İkili ağaç </h3>
 
 
