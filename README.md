@@ -4,7 +4,8 @@
 Bu depo, farklı veri yapılarını C programlama dili kullanarak uygulamalarını içerir.</br>
 
 <h3> Yığıtlar (Stacks) </h3>
-Verilen bir modelin ağaç olup olmadığını kontrol eden bir fonksiyon</br>
++ Verilen bir modelin ağaç olup olmadığını kontrol eden bir fonksiyon</br>
++ Rastgele sayılarla oluşturulmuş bir ağaçta preorder, inorder ve postorder gezintilerini bulan bir fonksiyon</br>
 
 
 <h3>  Kuyruklar (Queues) </h3>
