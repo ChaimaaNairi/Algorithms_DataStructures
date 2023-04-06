@@ -5,6 +5,9 @@
 
 + Yığıtlar (Stacks) </br>
 
++ Kuyruklar (Queues) </br>
+
+
 + İkili ağaç </br>
 
 
