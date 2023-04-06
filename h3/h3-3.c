@@ -20,7 +20,15 @@ Node* newNode(int data) {
     return node;
 }
 
-
+// Ağacı inorder gezerek ekrana yazdırma fonksiyonu
+void printInorder(Node* node) {
+    if (node == NULL) {
+        return;
+    }
+    printInorder(node->left);
+    printf("%d ", node->data);
+    printInorder(node->right);
+}
 
 
 
