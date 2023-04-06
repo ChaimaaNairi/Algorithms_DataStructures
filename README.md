@@ -1,5 +1,5 @@
 
-# h3
+# Veri Yapılarına Genel Bakış
 
 <h3>h3-1: Verilen bir modelin ağaç olup olmadığını kontrol eden fonksiyon</h3>
 Bu projede, C dilinde verilen bir modelin ağaç olup olmadığını kontrol eden bir fonksiyon yazılmıştır. </br>
