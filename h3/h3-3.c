@@ -10,3 +10,8 @@ typedef struct node {
 } Node;
 
 
+// Ağaç düğümü oluşturma fonksiyonu
+
+
+
+
