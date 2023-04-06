@@ -30,5 +30,15 @@ void printInorder(Node* node) {
     printInorder(node->right);
 }
 
+// Ağacı preorder gezerek ekrana yazdırma fonksiyonu
+void printPreorder(Node* node) {
+    if (node == NULL) {
+        return;
+    }
+    printf("%d ", node->data);
+    printPreorder(node->left);
+    printPreorder(node->right);
+}
+
 
 
