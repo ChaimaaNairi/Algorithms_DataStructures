@@ -62,7 +62,17 @@ Node* buildRandomBinaryTree(int depth) {
 }
 
 
-
+int main() {
+    srand(time(NULL)); // Rastgele sayılar için seed değeri ayarlanır
+    Node* root = buildRandomBinaryTree(5); // 5 derinliğinde bir ağaç oluşturulur
+    printf("Inorder gezinti sonucu: ");
+    printInorder(root);
+    printf("\nPreorder gezinti sonucu: ");
+    printPreorder(root);
+    printf("\nPostorder gezinti sonucu: ");
+    printPostorder(root);
+    return 0;
+}
 
 
 
