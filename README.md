@@ -1,10 +1,10 @@
 
 # Veri Yapılarına Genel Bakış
 
-<h3>Bu depo, farklı veri yapılarını C programlama dili kullanarak uygulamalarını içerir.
+<h3>Bu depo, farklı veri yapılarını C programlama dili kullanarak uygulamalarını içerir.</h3>
 
-</h3>
-Bu projede, C dilinde verilen bir modelin ağaç olup olmadığını kontrol eden bir fonksiyon yazılmıştır. </br>
+
++ İkili ağaç </br>
 
 
 <h3>h3-2: İkili Ağaç Oluşturma Fonksiyonu </h3>
