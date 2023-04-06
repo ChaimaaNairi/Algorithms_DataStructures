@@ -10,6 +10,7 @@ Bu depo, farklı veri yapılarını C programlama dili kullanarak uygulamaların
 
 <h3>  Kuyruklar (Queues) </h3>
 
++ Kuyruk veri yapısını ve ilgili işlevleri içeren bir program  </br>
 
 <h3>  İkili ağaç </h3>
 
