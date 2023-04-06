@@ -61,7 +61,6 @@ Node* buildRandomBinaryTree(int depth) {
     return node;
 }
 
-
 int main() {
     srand(time(NULL)); // Rastgele sayılar için seed değeri ayarlanır
     Node* root = buildRandomBinaryTree(5); // 5 derinliğinde bir ağaç oluşturulur
