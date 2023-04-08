@@ -14,3 +14,4 @@ Inorder traversal, bir ağacın düğümlerinin sıralı olarak gezilmesini ifad
 
 <h3>h3-3: Rastgele Sayılarla Oluşturulmuş 5 Derinlikli İkili Ağaç </h3>
 Bu program, rastgele sayılar kullanarak 5 derinlikli bir ikili ağaç oluşturur ve ağacın preorder, inorder ve postorder gezinti sonuçlarını ekrana yazdırır. </br>
+
