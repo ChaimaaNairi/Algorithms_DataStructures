@@ -10,4 +10,5 @@ Bu program B+ ağacı veri yapısından silme operasyonunu gerçekleştiren bir 
 
 Programın amacı, B+ ağacı yapısında bulunan bir düğümün silinmesi durumunda ağacın doğru bir şekilde yeniden dengelenmesini sağlamaktır. Bu işlem için gerekli olan adımlar açıklanmaktadır.</br>
 
-Programın kullanımı için öncelikle B+ ağacı yapısı oluşturulmalıdır. Daha sonra, ağaçtan silinecek düğümün verisi girilerek silme işlemi gerçekleştirilir. Program, ağacın yeni halini ekrana yazdırarak kullanıcıya gösterir.</br>
+Programın kullanımı için öncelikle B+ ağacı yapısı oluşturulmalıdır. Daha sonra, ağaçtan silinecek düğümün verisi girilerek silme işlemi gerçekleştirilir. Program, ağacın yeni halini ekrana yazdırarak kullanıcıya gösterir.</br> 
+
