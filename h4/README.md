@@ -6,7 +6,7 @@ Program, kullanıcıdan AVL ağacına eklenecek olan düğümlerin değerlerini 
 
 
 <h3>h4-2: B+ Ağacından Silme Operasyonu </h3>
-Bu program B+ ağacı veri yapısından silme operasyonunu gerçekleştiren bir C dilinde yazılmıştır.</br>
+Bu program B+ ağacı veri yapısından silme operasyonunu gerçekleştiren bir C dilinde yazılmıştır.</br></br>
 
 Programın amacı, B+ ağacı yapısında bulunan bir düğümün silinmesi durumunda ağacın doğru bir şekilde yeniden dengelenmesini sağlamaktır. Bu işlem için gerekli olan adımlar açıklanmaktadır.</br>
 
