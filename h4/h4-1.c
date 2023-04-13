@@ -221,13 +221,13 @@ int main()
     root = insert(root, 1);
     root = insert(root, 2);
  
-    printf("Oluşturulan AVL'nin ön sipariş geçişi "
+    printf("Olusturulan AVL'nin on siparis gecisi (Preorder traversal) "
            "agac is \n");
     preOrder(root);
  
     root = deleteNode(root, 10);
  
-    printf("\n 10 silindikten sonra ön sipariş geçişi \n");
+    printf("\n 10 silindikten sonra on siparis gecisi (Preorder traversal) \n");
     preOrder(root);
  
     return 0;
