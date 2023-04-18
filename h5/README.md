@@ -19,11 +19,11 @@ hash fonksiyonu aşağıdaki gibi tasarlandi:
 
 <b>Pseudo-kod:</b>
 
-hash_table = [None]*10
-def hash_func(x):
-return (3*x) % 10
-numbers = [23, 12, 88, 45, 62, 7, 1]
-for num in numbers:
-index = hash_func(num)
-hash_table[index] = num
-print(hash_table)
+hash_table = [None]*10 </br>
+def hash_func(x): </br>
+return (3*x) % 10 </br>
+numbers = [23, 12, 88, 45, 62, 7, 1] </br>
+for num in numbers: </br>
+index = hash_func(num) </br>
+hash_table[index] = num </br>
+print(hash_table) </br>
