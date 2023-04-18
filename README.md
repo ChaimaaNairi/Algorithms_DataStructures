@@ -5,9 +5,9 @@ Each data structure is implemented in its own subdirectory, with a README file e
 
 <h3> Available Data Structures</h3>
 
-+Linked List
-+Stack
-+Queue
-+Binary Search Tree
-+AVL Tree
-+Hash Table
++ Linked List
++ Stack
++ Queue
++ Binary Search Tree
++ AVL Tree
++ Hash Table
