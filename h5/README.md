@@ -14,7 +14,7 @@ Quadratic hashing de bir açık adresleme yöntemidir. Çakışma durumunda, her
 <h3> Hash Fonksiyonu Tasarlanması ve Kodlanması:</h3>
 hash fonksiyonu aşağıdaki gibi tasarlandi:</br>
 
-<b>Pseudo-kod:</b>
+<b>Pseudo-kod:</b></br>
 hash_table = [None]*10 </br>
 def hash_func(x): </br>
 return (3*x) % 10 </br>
