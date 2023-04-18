@@ -23,3 +23,5 @@ for num in numbers: </br>
 index = hash_func(num) </br>
 hash_table[index] = num </br>
 print(hash_table) </br>
+
+Output :  -1 1 12 23 62 45 -1 7 88 -1
