@@ -8,9 +8,8 @@ Double hashing is a collision resolution method using a second hash function. Fi
 Quadratic hashing is also a collision resolution method. In case of a collision, a new index is calculated by increasing by one square at each step. If this index is already occupied, a new index is calculated by increasing by two squares in the next step. This process is repeated until an empty cell is found. As the size of the table increases, the probability of collisions decreases, but resolving collisions also takes more time.
 
 <h3>Placing Numbers in a Hash Table:</h3>
-The numbers 23, 12, 88, 45, 62, 7, 1 were placed in a hash table using a hash function with mod 10.
+The numbers 23, 12, 88, 45, 62, 7, 1 were placed in a hash table using a hash function with mod 10.</br></br>
 
-<b>Designing and Coding the Hash Function:</b></br>
 The hash function was designed as follows:</br>
 <b>Pseudo-code:</b></br>
 hash_table = [None]10 </br>
