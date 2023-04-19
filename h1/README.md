@@ -11,3 +11,4 @@ This program solves the Josephus Problem using a singly circular linked list. Th
 After running the program, the user is asked for the number of people (n) and then the value of k (every kth person will be killed). After entering these values, the program prints the number of the last survivor to the screen.</br>
 <h4>Algorithm</h4>
 The program solves the Josephus Problem using a singly circular linked list. First, the people are placed properly on the singly circular linked list. Then, a person is removed from the list and the kth person in the list is selected. This process is repeated until only the last person in the list remains.
+
