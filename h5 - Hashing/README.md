@@ -10,9 +10,8 @@ Quadratic hashing is also a collision resolution method. In case of a collision,
 <h3>Placing Numbers in a Hash Table:</h3>
 The numbers 23, 12, 88, 45, 62, 7, 1 were placed in a hash table using a hash function with mod 10.
 
-<b>Designing and Coding the Hash Function:</b>
+<b>Designing and Coding the Hash Function:</b></br>
 The hash function was designed as follows:</br>
-
 <b>Pseudo-code:</b></br>
 hash_table = [None]10 </br>
 def hash_func(x): </br>
