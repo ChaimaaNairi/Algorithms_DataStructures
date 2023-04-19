@@ -1,4 +1,4 @@
-#h1
+# h1 - LinkedList
 <h3>h1-1: Doubly linked list Algorithm</h3>
 This C program contains the necessary algorithm to store data entered by the user in Doubly linked lists.
 
